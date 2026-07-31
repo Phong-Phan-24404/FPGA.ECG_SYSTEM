@@ -1,0 +1,34 @@
+# Vivado-generated project data
+kv260_hardware_platform.cache/
+kv260_hardware_platform.gen/
+kv260_hardware_platform.hw/
+kv260_hardware_platform.ip_user_files/
+kv260_hardware_platform.runs/
+kv260_hardware_platform.sim/
+.Xil/
+
+# Vivado logs and temporary files
+*.jou
+*.log
+*.str
+*.wdb
+*.wcfg
+*.pb
+*.rpx
+*.dcp
+*.vds
+*.vdi
+*.ltx
+
+# Generated FPGA outputs
+*.bit
+*.bin
+*.xsa
+*.elf
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
