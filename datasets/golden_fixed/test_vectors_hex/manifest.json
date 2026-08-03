@@ -1,0 +1,1440 @@
+{
+  "metadata": {
+    "source_script": "scripts/export_vectors.py",
+    "generation_timestamp": "2026-06-08T15:34:11.968777",
+    "version": "1.1",
+    "flatten_order": "row-major (C-contiguous) after Time-Major Channel-Serial Interleave transposition"
+  },
+  "samples": {
+    "sample_0": {
+      "label": 0,
+      "vectors": {
+        "input": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_0/input.hex",
+          "logical_shape": [
+            1,
+            1,
+            187
+          ],
+          "export_shape": [
+            187
+          ],
+          "line_count": 187,
+          "q_format": "Q8.8",
+          "checksum": "f4b1816e8123618bb9590b016b67c16e"
+        },
+        "conv1": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_0/conv1.hex",
+          "logical_shape": [
+            16,
+            183
+          ],
+          "export_shape": [
+            2928
+          ],
+          "line_count": 2928,
+          "q_format": "Q8.8",
+          "checksum": "2620c731f801b17d36e58799f145e9ee"
+        },
+        "relu1": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_0/relu1.hex",
+          "logical_shape": [
+            16,
+            183
+          ],
+          "export_shape": [
+            2928
+          ],
+          "line_count": 2928,
+          "q_format": "Q8.8",
+          "checksum": "c7f05d9761e35691260a739e378fed16"
+        },
+        "conv2": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_0/conv2.hex",
+          "logical_shape": [
+            16,
+            179
+          ],
+          "export_shape": [
+            2864
+          ],
+          "line_count": 2864,
+          "q_format": "Q8.8",
+          "checksum": "b8895ab33ad7b4ebd714039c97b6bfbc"
+        },
+        "relu2": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_0/relu2.hex",
+          "logical_shape": [
+            16,
+            179
+          ],
+          "export_shape": [
+            2864
+          ],
+          "line_count": 2864,
+          "q_format": "Q8.8",
+          "checksum": "70c793c61a660731e4f7166284c616aa"
+        },
+        "pool1": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_0/pool1.hex",
+          "logical_shape": [
+            16,
+            89
+          ],
+          "export_shape": [
+            1424
+          ],
+          "line_count": 1424,
+          "q_format": "Q8.8",
+          "checksum": "bde1b5b48dfdfefb3a133839afd3c9cf"
+        },
+        "conv3": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_0/conv3.hex",
+          "logical_shape": [
+            32,
+            87
+          ],
+          "export_shape": [
+            2784
+          ],
+          "line_count": 2784,
+          "q_format": "Q8.8",
+          "checksum": "c84f7e9c4dcab6dc8ca5f191fa3b4eb4"
+        },
+        "relu3": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_0/relu3.hex",
+          "logical_shape": [
+            32,
+            87
+          ],
+          "export_shape": [
+            2784
+          ],
+          "line_count": 2784,
+          "q_format": "Q8.8",
+          "checksum": "4f3f70e68225132d5b6f7f343219af07"
+        },
+        "conv4": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_0/conv4.hex",
+          "logical_shape": [
+            32,
+            85
+          ],
+          "export_shape": [
+            2720
+          ],
+          "line_count": 2720,
+          "q_format": "Q8.8",
+          "checksum": "f8eb888a8c3db27f4d6eff3e17f360c9"
+        },
+        "relu4": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_0/relu4.hex",
+          "logical_shape": [
+            32,
+            85
+          ],
+          "export_shape": [
+            2720
+          ],
+          "line_count": 2720,
+          "q_format": "Q8.8",
+          "checksum": "d8b04c32510ed90d8c0dad5877580d1b"
+        },
+        "pool2": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_0/pool2.hex",
+          "logical_shape": [
+            32,
+            42
+          ],
+          "export_shape": [
+            1344
+          ],
+          "line_count": 1344,
+          "q_format": "Q8.8",
+          "checksum": "87e1b980965ca129cf31100c84e4bdb4"
+        },
+        "conv5": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_0/conv5.hex",
+          "logical_shape": [
+            256,
+            40
+          ],
+          "export_shape": [
+            10240
+          ],
+          "line_count": 10240,
+          "q_format": "Q8.8",
+          "checksum": "2c1e4f21ca465829c4f775e77715697f"
+        },
+        "relu5": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_0/relu5.hex",
+          "logical_shape": [
+            256,
+            40
+          ],
+          "export_shape": [
+            10240
+          ],
+          "line_count": 10240,
+          "q_format": "Q8.8",
+          "checksum": "64f131ff456af1500a6866dd85bb5441"
+        },
+        "conv6": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_0/conv6.hex",
+          "logical_shape": [
+            256,
+            38
+          ],
+          "export_shape": [
+            9728
+          ],
+          "line_count": 9728,
+          "q_format": "Q8.8",
+          "checksum": "babaa1b4a63ad0eebf99d4962d22f534"
+        },
+        "relu6": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_0/relu6.hex",
+          "logical_shape": [
+            256,
+            38
+          ],
+          "export_shape": [
+            9728
+          ],
+          "line_count": 9728,
+          "q_format": "Q8.8",
+          "checksum": "7248624c7a32e2e49d1bd4bd939267ef"
+        },
+        "global_max_pool": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_0/global_max_pool.hex",
+          "logical_shape": [
+            256,
+            1
+          ],
+          "export_shape": [
+            256
+          ],
+          "line_count": 256,
+          "q_format": "Q8.8",
+          "checksum": "2cd6e3d6052993bf8a370852ce1ea925"
+        },
+        "flatten": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_0/flatten.hex",
+          "logical_shape": [
+            256
+          ],
+          "export_shape": [
+            256
+          ],
+          "line_count": 256,
+          "q_format": "Q8.8",
+          "checksum": "2cd6e3d6052993bf8a370852ce1ea925"
+        },
+        "fc1": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_0/fc1.hex",
+          "logical_shape": [
+            64
+          ],
+          "export_shape": [
+            64
+          ],
+          "line_count": 64,
+          "q_format": "Q8.8",
+          "checksum": "a8910bc23f52bc742c00c1510a1e2dc6"
+        },
+        "relu7": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_0/relu7.hex",
+          "logical_shape": [
+            64
+          ],
+          "export_shape": [
+            64
+          ],
+          "line_count": 64,
+          "q_format": "Q8.8",
+          "checksum": "6278955927933eb80013a38f4d3d4194"
+        },
+        "fc2": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_0/fc2.hex",
+          "logical_shape": [
+            64
+          ],
+          "export_shape": [
+            64
+          ],
+          "line_count": 64,
+          "q_format": "Q8.8",
+          "checksum": "14d6ae9da37e56f3c00868157c2b6186"
+        },
+        "relu8": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_0/relu8.hex",
+          "logical_shape": [
+            64
+          ],
+          "export_shape": [
+            64
+          ],
+          "line_count": 64,
+          "q_format": "Q8.8",
+          "checksum": "66e3b517614cf0c8d551f46fa1619dab"
+        },
+        "logits": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_0/logits.hex",
+          "logical_shape": [
+            5
+          ],
+          "export_shape": [
+            5
+          ],
+          "line_count": 5,
+          "q_format": "Q8.8",
+          "checksum": "4572ce18d5c7ba445914f861593171cd"
+        }
+      }
+    },
+    "sample_1": {
+      "label": 0,
+      "vectors": {
+        "input": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_1/input.hex",
+          "logical_shape": [
+            1,
+            1,
+            187
+          ],
+          "export_shape": [
+            187
+          ],
+          "line_count": 187,
+          "q_format": "Q8.8",
+          "checksum": "35c89ece3551e982249150b4a90f973b"
+        },
+        "conv1": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_1/conv1.hex",
+          "logical_shape": [
+            16,
+            183
+          ],
+          "export_shape": [
+            2928
+          ],
+          "line_count": 2928,
+          "q_format": "Q8.8",
+          "checksum": "b0834de24800af7df329cf35c5cab871"
+        },
+        "relu1": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_1/relu1.hex",
+          "logical_shape": [
+            16,
+            183
+          ],
+          "export_shape": [
+            2928
+          ],
+          "line_count": 2928,
+          "q_format": "Q8.8",
+          "checksum": "4778feae61e728d54fa444ec64f8c94e"
+        },
+        "conv2": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_1/conv2.hex",
+          "logical_shape": [
+            16,
+            179
+          ],
+          "export_shape": [
+            2864
+          ],
+          "line_count": 2864,
+          "q_format": "Q8.8",
+          "checksum": "ac50b3ec04d6654e1e2246e72e84588a"
+        },
+        "relu2": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_1/relu2.hex",
+          "logical_shape": [
+            16,
+            179
+          ],
+          "export_shape": [
+            2864
+          ],
+          "line_count": 2864,
+          "q_format": "Q8.8",
+          "checksum": "345e350ae0c5e86e3680a619648fc007"
+        },
+        "pool1": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_1/pool1.hex",
+          "logical_shape": [
+            16,
+            89
+          ],
+          "export_shape": [
+            1424
+          ],
+          "line_count": 1424,
+          "q_format": "Q8.8",
+          "checksum": "cb3bb4988a3b88269f4cadbf09057752"
+        },
+        "conv3": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_1/conv3.hex",
+          "logical_shape": [
+            32,
+            87
+          ],
+          "export_shape": [
+            2784
+          ],
+          "line_count": 2784,
+          "q_format": "Q8.8",
+          "checksum": "54b6ba221b11da74feeda806a5f4135c"
+        },
+        "relu3": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_1/relu3.hex",
+          "logical_shape": [
+            32,
+            87
+          ],
+          "export_shape": [
+            2784
+          ],
+          "line_count": 2784,
+          "q_format": "Q8.8",
+          "checksum": "ceef16921b6f2b929c8878d99f53cf03"
+        },
+        "conv4": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_1/conv4.hex",
+          "logical_shape": [
+            32,
+            85
+          ],
+          "export_shape": [
+            2720
+          ],
+          "line_count": 2720,
+          "q_format": "Q8.8",
+          "checksum": "9c33304fc14b19bf520d6f6988ceda1c"
+        },
+        "relu4": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_1/relu4.hex",
+          "logical_shape": [
+            32,
+            85
+          ],
+          "export_shape": [
+            2720
+          ],
+          "line_count": 2720,
+          "q_format": "Q8.8",
+          "checksum": "a73ee51fa06204d0be99ff378dfcbe27"
+        },
+        "pool2": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_1/pool2.hex",
+          "logical_shape": [
+            32,
+            42
+          ],
+          "export_shape": [
+            1344
+          ],
+          "line_count": 1344,
+          "q_format": "Q8.8",
+          "checksum": "9c63cb0ea26a76be474a60c731d75a75"
+        },
+        "conv5": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_1/conv5.hex",
+          "logical_shape": [
+            256,
+            40
+          ],
+          "export_shape": [
+            10240
+          ],
+          "line_count": 10240,
+          "q_format": "Q8.8",
+          "checksum": "2178e8bc3b790236410783f0b903f286"
+        },
+        "relu5": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_1/relu5.hex",
+          "logical_shape": [
+            256,
+            40
+          ],
+          "export_shape": [
+            10240
+          ],
+          "line_count": 10240,
+          "q_format": "Q8.8",
+          "checksum": "c3516b29988323df0ba99f5f2d82b2ad"
+        },
+        "conv6": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_1/conv6.hex",
+          "logical_shape": [
+            256,
+            38
+          ],
+          "export_shape": [
+            9728
+          ],
+          "line_count": 9728,
+          "q_format": "Q8.8",
+          "checksum": "ef8db04c047aea2fe21e4ed95789c793"
+        },
+        "relu6": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_1/relu6.hex",
+          "logical_shape": [
+            256,
+            38
+          ],
+          "export_shape": [
+            9728
+          ],
+          "line_count": 9728,
+          "q_format": "Q8.8",
+          "checksum": "303fc0954bff60de41fdcdc62688e4b6"
+        },
+        "global_max_pool": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_1/global_max_pool.hex",
+          "logical_shape": [
+            256,
+            1
+          ],
+          "export_shape": [
+            256
+          ],
+          "line_count": 256,
+          "q_format": "Q8.8",
+          "checksum": "2bdbde7de3713a1c38242adb1fc2bba5"
+        },
+        "flatten": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_1/flatten.hex",
+          "logical_shape": [
+            256
+          ],
+          "export_shape": [
+            256
+          ],
+          "line_count": 256,
+          "q_format": "Q8.8",
+          "checksum": "2bdbde7de3713a1c38242adb1fc2bba5"
+        },
+        "fc1": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_1/fc1.hex",
+          "logical_shape": [
+            64
+          ],
+          "export_shape": [
+            64
+          ],
+          "line_count": 64,
+          "q_format": "Q8.8",
+          "checksum": "c148a9c13bdc78954180147460ed14c4"
+        },
+        "relu7": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_1/relu7.hex",
+          "logical_shape": [
+            64
+          ],
+          "export_shape": [
+            64
+          ],
+          "line_count": 64,
+          "q_format": "Q8.8",
+          "checksum": "f4e9ed0954c21bfafcf494a8c7407e78"
+        },
+        "fc2": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_1/fc2.hex",
+          "logical_shape": [
+            64
+          ],
+          "export_shape": [
+            64
+          ],
+          "line_count": 64,
+          "q_format": "Q8.8",
+          "checksum": "9c185f140008df5afeec9d691119b8ae"
+        },
+        "relu8": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_1/relu8.hex",
+          "logical_shape": [
+            64
+          ],
+          "export_shape": [
+            64
+          ],
+          "line_count": 64,
+          "q_format": "Q8.8",
+          "checksum": "c05b7ac5fcf26f0a3e281170533cfe05"
+        },
+        "logits": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_1/logits.hex",
+          "logical_shape": [
+            5
+          ],
+          "export_shape": [
+            5
+          ],
+          "line_count": 5,
+          "q_format": "Q8.8",
+          "checksum": "0aece627fb42551082f4584a5bd78283"
+        }
+      }
+    },
+    "sample_2": {
+      "label": 0,
+      "vectors": {
+        "input": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_2/input.hex",
+          "logical_shape": [
+            1,
+            1,
+            187
+          ],
+          "export_shape": [
+            187
+          ],
+          "line_count": 187,
+          "q_format": "Q8.8",
+          "checksum": "08d6f4621ffb99286e53fc8d444af242"
+        },
+        "conv1": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_2/conv1.hex",
+          "logical_shape": [
+            16,
+            183
+          ],
+          "export_shape": [
+            2928
+          ],
+          "line_count": 2928,
+          "q_format": "Q8.8",
+          "checksum": "6aecd444c4f3868fd6adc9d0a480249f"
+        },
+        "relu1": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_2/relu1.hex",
+          "logical_shape": [
+            16,
+            183
+          ],
+          "export_shape": [
+            2928
+          ],
+          "line_count": 2928,
+          "q_format": "Q8.8",
+          "checksum": "8e9aa5a876e9b825f7d36e87316b1091"
+        },
+        "conv2": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_2/conv2.hex",
+          "logical_shape": [
+            16,
+            179
+          ],
+          "export_shape": [
+            2864
+          ],
+          "line_count": 2864,
+          "q_format": "Q8.8",
+          "checksum": "30107f3224a47fadd0e24952e8a69081"
+        },
+        "relu2": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_2/relu2.hex",
+          "logical_shape": [
+            16,
+            179
+          ],
+          "export_shape": [
+            2864
+          ],
+          "line_count": 2864,
+          "q_format": "Q8.8",
+          "checksum": "d822f6ec563164537b37a62afd863e15"
+        },
+        "pool1": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_2/pool1.hex",
+          "logical_shape": [
+            16,
+            89
+          ],
+          "export_shape": [
+            1424
+          ],
+          "line_count": 1424,
+          "q_format": "Q8.8",
+          "checksum": "3e37fdb8cb6be4167c32fab89d2f6f7b"
+        },
+        "conv3": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_2/conv3.hex",
+          "logical_shape": [
+            32,
+            87
+          ],
+          "export_shape": [
+            2784
+          ],
+          "line_count": 2784,
+          "q_format": "Q8.8",
+          "checksum": "88ba2f3a80c4a81de947f4b033f2d3b5"
+        },
+        "relu3": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_2/relu3.hex",
+          "logical_shape": [
+            32,
+            87
+          ],
+          "export_shape": [
+            2784
+          ],
+          "line_count": 2784,
+          "q_format": "Q8.8",
+          "checksum": "0e909fd9f4026e34355011189fe87e27"
+        },
+        "conv4": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_2/conv4.hex",
+          "logical_shape": [
+            32,
+            85
+          ],
+          "export_shape": [
+            2720
+          ],
+          "line_count": 2720,
+          "q_format": "Q8.8",
+          "checksum": "febbc8383655bf6c3451de2e38f6368a"
+        },
+        "relu4": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_2/relu4.hex",
+          "logical_shape": [
+            32,
+            85
+          ],
+          "export_shape": [
+            2720
+          ],
+          "line_count": 2720,
+          "q_format": "Q8.8",
+          "checksum": "3958446092178259af2e34dd7a904d1f"
+        },
+        "pool2": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_2/pool2.hex",
+          "logical_shape": [
+            32,
+            42
+          ],
+          "export_shape": [
+            1344
+          ],
+          "line_count": 1344,
+          "q_format": "Q8.8",
+          "checksum": "0f5ecc29855efdf55607aff3444407b6"
+        },
+        "conv5": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_2/conv5.hex",
+          "logical_shape": [
+            256,
+            40
+          ],
+          "export_shape": [
+            10240
+          ],
+          "line_count": 10240,
+          "q_format": "Q8.8",
+          "checksum": "77e92b07e0030d3aaabb7fe0220dbb8c"
+        },
+        "relu5": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_2/relu5.hex",
+          "logical_shape": [
+            256,
+            40
+          ],
+          "export_shape": [
+            10240
+          ],
+          "line_count": 10240,
+          "q_format": "Q8.8",
+          "checksum": "33237730fd1332ad0ff188ddfb418e01"
+        },
+        "conv6": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_2/conv6.hex",
+          "logical_shape": [
+            256,
+            38
+          ],
+          "export_shape": [
+            9728
+          ],
+          "line_count": 9728,
+          "q_format": "Q8.8",
+          "checksum": "e2eb2fb4db17025717167d90231c596b"
+        },
+        "relu6": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_2/relu6.hex",
+          "logical_shape": [
+            256,
+            38
+          ],
+          "export_shape": [
+            9728
+          ],
+          "line_count": 9728,
+          "q_format": "Q8.8",
+          "checksum": "c8b6e288d43d714043841bff349f7d49"
+        },
+        "global_max_pool": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_2/global_max_pool.hex",
+          "logical_shape": [
+            256,
+            1
+          ],
+          "export_shape": [
+            256
+          ],
+          "line_count": 256,
+          "q_format": "Q8.8",
+          "checksum": "051359ac2953ebf81a0fd69655b9039b"
+        },
+        "flatten": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_2/flatten.hex",
+          "logical_shape": [
+            256
+          ],
+          "export_shape": [
+            256
+          ],
+          "line_count": 256,
+          "q_format": "Q8.8",
+          "checksum": "051359ac2953ebf81a0fd69655b9039b"
+        },
+        "fc1": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_2/fc1.hex",
+          "logical_shape": [
+            64
+          ],
+          "export_shape": [
+            64
+          ],
+          "line_count": 64,
+          "q_format": "Q8.8",
+          "checksum": "d8dadbcfec54205c87d70d79087a62ec"
+        },
+        "relu7": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_2/relu7.hex",
+          "logical_shape": [
+            64
+          ],
+          "export_shape": [
+            64
+          ],
+          "line_count": 64,
+          "q_format": "Q8.8",
+          "checksum": "5d1a6e6a9642bcd5c3fa463da2212ebe"
+        },
+        "fc2": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_2/fc2.hex",
+          "logical_shape": [
+            64
+          ],
+          "export_shape": [
+            64
+          ],
+          "line_count": 64,
+          "q_format": "Q8.8",
+          "checksum": "f59a1da9a336a4fe1760a9094dcbb6e6"
+        },
+        "relu8": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_2/relu8.hex",
+          "logical_shape": [
+            64
+          ],
+          "export_shape": [
+            64
+          ],
+          "line_count": 64,
+          "q_format": "Q8.8",
+          "checksum": "e50fd1f05a8f5307d7b421003cea4582"
+        },
+        "logits": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_2/logits.hex",
+          "logical_shape": [
+            5
+          ],
+          "export_shape": [
+            5
+          ],
+          "line_count": 5,
+          "q_format": "Q8.8",
+          "checksum": "c2bd007e96dbc3f9b56350f54f471e89"
+        }
+      }
+    },
+    "sample_3": {
+      "label": 0,
+      "vectors": {
+        "input": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_3/input.hex",
+          "logical_shape": [
+            1,
+            1,
+            187
+          ],
+          "export_shape": [
+            187
+          ],
+          "line_count": 187,
+          "q_format": "Q8.8",
+          "checksum": "5b179b8f8749831f0f9e7189eccec142"
+        },
+        "conv1": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_3/conv1.hex",
+          "logical_shape": [
+            16,
+            183
+          ],
+          "export_shape": [
+            2928
+          ],
+          "line_count": 2928,
+          "q_format": "Q8.8",
+          "checksum": "aa4de9bcf8a7da74c65b407a1bf00b95"
+        },
+        "relu1": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_3/relu1.hex",
+          "logical_shape": [
+            16,
+            183
+          ],
+          "export_shape": [
+            2928
+          ],
+          "line_count": 2928,
+          "q_format": "Q8.8",
+          "checksum": "8baabc4f6d36f3c9330b2f0d408d02ad"
+        },
+        "conv2": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_3/conv2.hex",
+          "logical_shape": [
+            16,
+            179
+          ],
+          "export_shape": [
+            2864
+          ],
+          "line_count": 2864,
+          "q_format": "Q8.8",
+          "checksum": "c7c0c8fda636d25e130acc8b95f04e86"
+        },
+        "relu2": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_3/relu2.hex",
+          "logical_shape": [
+            16,
+            179
+          ],
+          "export_shape": [
+            2864
+          ],
+          "line_count": 2864,
+          "q_format": "Q8.8",
+          "checksum": "dd3896391ec69aeff0806edd7c6a4b01"
+        },
+        "pool1": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_3/pool1.hex",
+          "logical_shape": [
+            16,
+            89
+          ],
+          "export_shape": [
+            1424
+          ],
+          "line_count": 1424,
+          "q_format": "Q8.8",
+          "checksum": "327ab9b31bf3676f8cb9fe8ad491c6ff"
+        },
+        "conv3": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_3/conv3.hex",
+          "logical_shape": [
+            32,
+            87
+          ],
+          "export_shape": [
+            2784
+          ],
+          "line_count": 2784,
+          "q_format": "Q8.8",
+          "checksum": "a8682864d8a72ff8d46529e39a99dbc1"
+        },
+        "relu3": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_3/relu3.hex",
+          "logical_shape": [
+            32,
+            87
+          ],
+          "export_shape": [
+            2784
+          ],
+          "line_count": 2784,
+          "q_format": "Q8.8",
+          "checksum": "0b5e5c847b9c4b6b63d3b10fc684fdb5"
+        },
+        "conv4": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_3/conv4.hex",
+          "logical_shape": [
+            32,
+            85
+          ],
+          "export_shape": [
+            2720
+          ],
+          "line_count": 2720,
+          "q_format": "Q8.8",
+          "checksum": "51a9a517e97bbeaef183a303ac7b3d5b"
+        },
+        "relu4": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_3/relu4.hex",
+          "logical_shape": [
+            32,
+            85
+          ],
+          "export_shape": [
+            2720
+          ],
+          "line_count": 2720,
+          "q_format": "Q8.8",
+          "checksum": "2d83ce11e31c7e59002a17a1ad96f359"
+        },
+        "pool2": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_3/pool2.hex",
+          "logical_shape": [
+            32,
+            42
+          ],
+          "export_shape": [
+            1344
+          ],
+          "line_count": 1344,
+          "q_format": "Q8.8",
+          "checksum": "422e6f83f6e3755dddb34f6f82a85a1a"
+        },
+        "conv5": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_3/conv5.hex",
+          "logical_shape": [
+            256,
+            40
+          ],
+          "export_shape": [
+            10240
+          ],
+          "line_count": 10240,
+          "q_format": "Q8.8",
+          "checksum": "3b0a9c2d9622a62f62816577e3a81c4d"
+        },
+        "relu5": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_3/relu5.hex",
+          "logical_shape": [
+            256,
+            40
+          ],
+          "export_shape": [
+            10240
+          ],
+          "line_count": 10240,
+          "q_format": "Q8.8",
+          "checksum": "1013647349ab2e2d646286bca41c0140"
+        },
+        "conv6": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_3/conv6.hex",
+          "logical_shape": [
+            256,
+            38
+          ],
+          "export_shape": [
+            9728
+          ],
+          "line_count": 9728,
+          "q_format": "Q8.8",
+          "checksum": "b775fb1bfa4a98d93071873f78bbd4b9"
+        },
+        "relu6": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_3/relu6.hex",
+          "logical_shape": [
+            256,
+            38
+          ],
+          "export_shape": [
+            9728
+          ],
+          "line_count": 9728,
+          "q_format": "Q8.8",
+          "checksum": "c07d940c40afbbbb65ce5f31e56cb62d"
+        },
+        "global_max_pool": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_3/global_max_pool.hex",
+          "logical_shape": [
+            256,
+            1
+          ],
+          "export_shape": [
+            256
+          ],
+          "line_count": 256,
+          "q_format": "Q8.8",
+          "checksum": "75b3ba06a8ed98d56db482c73fc10821"
+        },
+        "flatten": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_3/flatten.hex",
+          "logical_shape": [
+            256
+          ],
+          "export_shape": [
+            256
+          ],
+          "line_count": 256,
+          "q_format": "Q8.8",
+          "checksum": "75b3ba06a8ed98d56db482c73fc10821"
+        },
+        "fc1": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_3/fc1.hex",
+          "logical_shape": [
+            64
+          ],
+          "export_shape": [
+            64
+          ],
+          "line_count": 64,
+          "q_format": "Q8.8",
+          "checksum": "2b01e048d86aedd049875ebef1383d45"
+        },
+        "relu7": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_3/relu7.hex",
+          "logical_shape": [
+            64
+          ],
+          "export_shape": [
+            64
+          ],
+          "line_count": 64,
+          "q_format": "Q8.8",
+          "checksum": "2fe0a29e042136f8b2369e7222a9f78e"
+        },
+        "fc2": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_3/fc2.hex",
+          "logical_shape": [
+            64
+          ],
+          "export_shape": [
+            64
+          ],
+          "line_count": 64,
+          "q_format": "Q8.8",
+          "checksum": "5573c0bd11fcd5e0bf464bfffb235118"
+        },
+        "relu8": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_3/relu8.hex",
+          "logical_shape": [
+            64
+          ],
+          "export_shape": [
+            64
+          ],
+          "line_count": 64,
+          "q_format": "Q8.8",
+          "checksum": "5c79e2dbf50eaa08d50179e4e9701ee2"
+        },
+        "logits": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_3/logits.hex",
+          "logical_shape": [
+            5
+          ],
+          "export_shape": [
+            5
+          ],
+          "line_count": 5,
+          "q_format": "Q8.8",
+          "checksum": "2872ec2edf9b6ff78cb00e5b2c6c49c0"
+        }
+      }
+    },
+    "sample_4": {
+      "label": 0,
+      "vectors": {
+        "input": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_4/input.hex",
+          "logical_shape": [
+            1,
+            1,
+            187
+          ],
+          "export_shape": [
+            187
+          ],
+          "line_count": 187,
+          "q_format": "Q8.8",
+          "checksum": "53ce64b68571c8a3d91e0a5c79fd03c7"
+        },
+        "conv1": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_4/conv1.hex",
+          "logical_shape": [
+            16,
+            183
+          ],
+          "export_shape": [
+            2928
+          ],
+          "line_count": 2928,
+          "q_format": "Q8.8",
+          "checksum": "02a4b5ecc6503777f029aedd83103a6b"
+        },
+        "relu1": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_4/relu1.hex",
+          "logical_shape": [
+            16,
+            183
+          ],
+          "export_shape": [
+            2928
+          ],
+          "line_count": 2928,
+          "q_format": "Q8.8",
+          "checksum": "0fc25a004f7e498e3b39602ce012f680"
+        },
+        "conv2": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_4/conv2.hex",
+          "logical_shape": [
+            16,
+            179
+          ],
+          "export_shape": [
+            2864
+          ],
+          "line_count": 2864,
+          "q_format": "Q8.8",
+          "checksum": "630bb99040b4d9396a594a1cd55fcffc"
+        },
+        "relu2": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_4/relu2.hex",
+          "logical_shape": [
+            16,
+            179
+          ],
+          "export_shape": [
+            2864
+          ],
+          "line_count": 2864,
+          "q_format": "Q8.8",
+          "checksum": "f6243c6c7237667ce9e74318d174cad7"
+        },
+        "pool1": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_4/pool1.hex",
+          "logical_shape": [
+            16,
+            89
+          ],
+          "export_shape": [
+            1424
+          ],
+          "line_count": 1424,
+          "q_format": "Q8.8",
+          "checksum": "f9f2ce575593a34dcdf62be22a31d351"
+        },
+        "conv3": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_4/conv3.hex",
+          "logical_shape": [
+            32,
+            87
+          ],
+          "export_shape": [
+            2784
+          ],
+          "line_count": 2784,
+          "q_format": "Q8.8",
+          "checksum": "e5c0cdae9f80ea12d3400ee63ad97378"
+        },
+        "relu3": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_4/relu3.hex",
+          "logical_shape": [
+            32,
+            87
+          ],
+          "export_shape": [
+            2784
+          ],
+          "line_count": 2784,
+          "q_format": "Q8.8",
+          "checksum": "b6c2aa7719149f6153d0cbacfbfbbcfb"
+        },
+        "conv4": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_4/conv4.hex",
+          "logical_shape": [
+            32,
+            85
+          ],
+          "export_shape": [
+            2720
+          ],
+          "line_count": 2720,
+          "q_format": "Q8.8",
+          "checksum": "6ef8294b29d0e666a63309a95dab88c9"
+        },
+        "relu4": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_4/relu4.hex",
+          "logical_shape": [
+            32,
+            85
+          ],
+          "export_shape": [
+            2720
+          ],
+          "line_count": 2720,
+          "q_format": "Q8.8",
+          "checksum": "71fe1a7b7235e3ae35b51c94cc33b5d1"
+        },
+        "pool2": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_4/pool2.hex",
+          "logical_shape": [
+            32,
+            42
+          ],
+          "export_shape": [
+            1344
+          ],
+          "line_count": 1344,
+          "q_format": "Q8.8",
+          "checksum": "df6d96e6a4c72dd33d2b4a430487c3e7"
+        },
+        "conv5": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_4/conv5.hex",
+          "logical_shape": [
+            256,
+            40
+          ],
+          "export_shape": [
+            10240
+          ],
+          "line_count": 10240,
+          "q_format": "Q8.8",
+          "checksum": "61db86b5022f946405621d993b36a170"
+        },
+        "relu5": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_4/relu5.hex",
+          "logical_shape": [
+            256,
+            40
+          ],
+          "export_shape": [
+            10240
+          ],
+          "line_count": 10240,
+          "q_format": "Q8.8",
+          "checksum": "c313ef09e6d94c2db46b7521d6725a13"
+        },
+        "conv6": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_4/conv6.hex",
+          "logical_shape": [
+            256,
+            38
+          ],
+          "export_shape": [
+            9728
+          ],
+          "line_count": 9728,
+          "q_format": "Q8.8",
+          "checksum": "189b14e0c41551b2aed433b79cde7352"
+        },
+        "relu6": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_4/relu6.hex",
+          "logical_shape": [
+            256,
+            38
+          ],
+          "export_shape": [
+            9728
+          ],
+          "line_count": 9728,
+          "q_format": "Q8.8",
+          "checksum": "b215612c47b122fd7e401fc5860b8e8c"
+        },
+        "global_max_pool": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_4/global_max_pool.hex",
+          "logical_shape": [
+            256,
+            1
+          ],
+          "export_shape": [
+            256
+          ],
+          "line_count": 256,
+          "q_format": "Q8.8",
+          "checksum": "76a35f00d29abd0a4acd8b9f2584b9ad"
+        },
+        "flatten": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_4/flatten.hex",
+          "logical_shape": [
+            256
+          ],
+          "export_shape": [
+            256
+          ],
+          "line_count": 256,
+          "q_format": "Q8.8",
+          "checksum": "76a35f00d29abd0a4acd8b9f2584b9ad"
+        },
+        "fc1": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_4/fc1.hex",
+          "logical_shape": [
+            64
+          ],
+          "export_shape": [
+            64
+          ],
+          "line_count": 64,
+          "q_format": "Q8.8",
+          "checksum": "ab0d4187813dea4121c62dc6a4bc49a1"
+        },
+        "relu7": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_4/relu7.hex",
+          "logical_shape": [
+            64
+          ],
+          "export_shape": [
+            64
+          ],
+          "line_count": 64,
+          "q_format": "Q8.8",
+          "checksum": "58a75fc458819f7dfec159f5efa07647"
+        },
+        "fc2": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_4/fc2.hex",
+          "logical_shape": [
+            64
+          ],
+          "export_shape": [
+            64
+          ],
+          "line_count": 64,
+          "q_format": "Q8.8",
+          "checksum": "3b56bb4172101d5116ef8890ffe2323c"
+        },
+        "relu8": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_4/relu8.hex",
+          "logical_shape": [
+            64
+          ],
+          "export_shape": [
+            64
+          ],
+          "line_count": 64,
+          "q_format": "Q8.8",
+          "checksum": "d26816efdfe79d408971aec9c84df825"
+        },
+        "logits": {
+          "file_path": "datasets/golden_fixed/test_vectors_hex/sample_4/logits.hex",
+          "logical_shape": [
+            5
+          ],
+          "export_shape": [
+            5
+          ],
+          "line_count": 5,
+          "q_format": "Q8.8",
+          "checksum": "892d2d7324aa4a36fc1ccd8913dd9946"
+        }
+      }
+    }
+  }
+}

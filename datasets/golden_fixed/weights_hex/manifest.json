@@ -1,0 +1,241 @@
+{
+  "metadata": {
+    "source_script": "scripts/export_vectors.py",
+    "generation_timestamp": "2026-06-08T15:34:11.938522",
+    "version": "1.1",
+    "flatten_order": "row-major (C-contiguous)"
+  },
+  "weights": {
+    "conv1_weight": {
+      "file_path": "datasets/golden_fixed/weights_hex/conv1_weight.hex",
+      "logical_shape": [
+        16,
+        1,
+        5
+      ],
+      "export_shape": [
+        80
+      ],
+      "line_count": 80,
+      "q_format": "Q2.14",
+      "checksum": "f68f6c058f8216429fc612efa0f8d870"
+    },
+    "conv1_bias": {
+      "file_path": "datasets/golden_fixed/weights_hex/conv1_bias.hex",
+      "logical_shape": [
+        16
+      ],
+      "export_shape": [
+        16
+      ],
+      "line_count": 16,
+      "q_format": "Q2.14",
+      "checksum": "e01b05ac16a9689f78c1a9788fd89d6b"
+    },
+    "conv2_weight": {
+      "file_path": "datasets/golden_fixed/weights_hex/conv2_weight.hex",
+      "logical_shape": [
+        16,
+        16,
+        5
+      ],
+      "export_shape": [
+        1280
+      ],
+      "line_count": 1280,
+      "q_format": "Q2.14",
+      "checksum": "dd929d3af10dffe0a845ae1b2498430e"
+    },
+    "conv2_bias": {
+      "file_path": "datasets/golden_fixed/weights_hex/conv2_bias.hex",
+      "logical_shape": [
+        16
+      ],
+      "export_shape": [
+        16
+      ],
+      "line_count": 16,
+      "q_format": "Q2.14",
+      "checksum": "cceca3af9a27b307da98ed2b63a24c00"
+    },
+    "conv3_weight": {
+      "file_path": "datasets/golden_fixed/weights_hex/conv3_weight.hex",
+      "logical_shape": [
+        32,
+        16,
+        3
+      ],
+      "export_shape": [
+        1536
+      ],
+      "line_count": 1536,
+      "q_format": "Q2.14",
+      "checksum": "b162250e1ffe0a082548ae1ae6855124"
+    },
+    "conv3_bias": {
+      "file_path": "datasets/golden_fixed/weights_hex/conv3_bias.hex",
+      "logical_shape": [
+        32
+      ],
+      "export_shape": [
+        32
+      ],
+      "line_count": 32,
+      "q_format": "Q2.14",
+      "checksum": "d5a2bd2412ce75a7fe36d7d7967a4649"
+    },
+    "conv4_weight": {
+      "file_path": "datasets/golden_fixed/weights_hex/conv4_weight.hex",
+      "logical_shape": [
+        32,
+        32,
+        3
+      ],
+      "export_shape": [
+        3072
+      ],
+      "line_count": 3072,
+      "q_format": "Q2.14",
+      "checksum": "f2a8c0dd2f5f71a9b95b8ad12859b7ba"
+    },
+    "conv4_bias": {
+      "file_path": "datasets/golden_fixed/weights_hex/conv4_bias.hex",
+      "logical_shape": [
+        32
+      ],
+      "export_shape": [
+        32
+      ],
+      "line_count": 32,
+      "q_format": "Q2.14",
+      "checksum": "d9834fbee7fee061724e430d71adab38"
+    },
+    "conv5_weight": {
+      "file_path": "datasets/golden_fixed/weights_hex/conv5_weight.hex",
+      "logical_shape": [
+        256,
+        32,
+        3
+      ],
+      "export_shape": [
+        24576
+      ],
+      "line_count": 24576,
+      "q_format": "Q2.14",
+      "checksum": "bf964a49c6010411314b642ea9f37dec"
+    },
+    "conv5_bias": {
+      "file_path": "datasets/golden_fixed/weights_hex/conv5_bias.hex",
+      "logical_shape": [
+        256
+      ],
+      "export_shape": [
+        256
+      ],
+      "line_count": 256,
+      "q_format": "Q2.14",
+      "checksum": "74f55547a5e4b271e6005547bafeee44"
+    },
+    "conv6_weight": {
+      "file_path": "datasets/golden_fixed/weights_hex/conv6_weight.hex",
+      "logical_shape": [
+        256,
+        256,
+        3
+      ],
+      "export_shape": [
+        196608
+      ],
+      "line_count": 196608,
+      "q_format": "Q2.14",
+      "checksum": "df4893ee2f83f1a1a888a58cd23dd46e"
+    },
+    "conv6_bias": {
+      "file_path": "datasets/golden_fixed/weights_hex/conv6_bias.hex",
+      "logical_shape": [
+        256
+      ],
+      "export_shape": [
+        256
+      ],
+      "line_count": 256,
+      "q_format": "Q2.14",
+      "checksum": "3f64faa374004de2a518b19beb2e4896"
+    },
+    "fc1_weight": {
+      "file_path": "datasets/golden_fixed/weights_hex/fc1_weight.hex",
+      "logical_shape": [
+        64,
+        256
+      ],
+      "export_shape": [
+        16384
+      ],
+      "line_count": 16384,
+      "q_format": "Q2.14",
+      "checksum": "f4685b6e700af952b1cba521689b810a"
+    },
+    "fc1_bias": {
+      "file_path": "datasets/golden_fixed/weights_hex/fc1_bias.hex",
+      "logical_shape": [
+        64
+      ],
+      "export_shape": [
+        64
+      ],
+      "line_count": 64,
+      "q_format": "Q2.14",
+      "checksum": "02956c7d134a0a9919ec256c009f75af"
+    },
+    "fc2_weight": {
+      "file_path": "datasets/golden_fixed/weights_hex/fc2_weight.hex",
+      "logical_shape": [
+        64,
+        64
+      ],
+      "export_shape": [
+        4096
+      ],
+      "line_count": 4096,
+      "q_format": "Q2.14",
+      "checksum": "6436d78b14a8cc20a89a5d2692654d3f"
+    },
+    "fc2_bias": {
+      "file_path": "datasets/golden_fixed/weights_hex/fc2_bias.hex",
+      "logical_shape": [
+        64
+      ],
+      "export_shape": [
+        64
+      ],
+      "line_count": 64,
+      "q_format": "Q2.14",
+      "checksum": "b0f109143351c87a02754990ab13260e"
+    },
+    "fc3_weight": {
+      "file_path": "datasets/golden_fixed/weights_hex/fc3_weight.hex",
+      "logical_shape": [
+        5,
+        64
+      ],
+      "export_shape": [
+        320
+      ],
+      "line_count": 320,
+      "q_format": "Q2.14",
+      "checksum": "4a97af6d8037d942c70c38f06add7564"
+    },
+    "fc3_bias": {
+      "file_path": "datasets/golden_fixed/weights_hex/fc3_bias.hex",
+      "logical_shape": [
+        5
+      ],
+      "export_shape": [
+        5
+      ],
+      "line_count": 5,
+      "q_format": "Q2.14",
+      "checksum": "a35f0569f2f8f2bc9c77f792d7cfb9d8"
+    }
+  }
+}

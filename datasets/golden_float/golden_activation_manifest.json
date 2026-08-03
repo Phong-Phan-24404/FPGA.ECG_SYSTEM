@@ -1,0 +1,398 @@
+{
+  "input": {
+    "shape": [
+      128,
+      1,
+      187
+    ],
+    "dtype": "float32",
+    "min": 0.0,
+    "max": 1.0,
+    "mean": 0.1968085914850235,
+    "std": 0.24342502653598785,
+    "description": "FP32 PyTorch activation exported in model.eval() mode"
+  },
+  "conv1": {
+    "shape": [
+      128,
+      16,
+      183
+    ],
+    "dtype": "float32",
+    "min": -1.097472071647644,
+    "max": 1.1082319021224976,
+    "mean": -0.039122074842453,
+    "std": 0.19880221784114838,
+    "description": "FP32 PyTorch activation exported in model.eval() mode"
+  },
+  "bn1_or_identity": {
+    "shape": [
+      128,
+      16,
+      183
+    ],
+    "dtype": "float32",
+    "min": -1.097472071647644,
+    "max": 1.1082319021224976,
+    "mean": -0.039122074842453,
+    "std": 0.19880221784114838,
+    "description": "FP32 PyTorch activation exported in model.eval() mode"
+  },
+  "relu1": {
+    "shape": [
+      128,
+      16,
+      183
+    ],
+    "dtype": "float32",
+    "min": 0.0,
+    "max": 1.1082319021224976,
+    "mean": 0.054669562727212906,
+    "std": 0.10094806551933289,
+    "description": "FP32 PyTorch activation exported in model.eval() mode"
+  },
+  "conv2": {
+    "shape": [
+      128,
+      16,
+      179
+    ],
+    "dtype": "float32",
+    "min": -1.8751697540283203,
+    "max": 1.734761357307434,
+    "mean": -0.12655341625213623,
+    "std": 0.21076422929763794,
+    "description": "FP32 PyTorch activation exported in model.eval() mode"
+  },
+  "bn2_or_identity": {
+    "shape": [
+      128,
+      16,
+      179
+    ],
+    "dtype": "float32",
+    "min": -1.8751697540283203,
+    "max": 1.734761357307434,
+    "mean": -0.12655341625213623,
+    "std": 0.21076422929763794,
+    "description": "FP32 PyTorch activation exported in model.eval() mode"
+  },
+  "relu2": {
+    "shape": [
+      128,
+      16,
+      179
+    ],
+    "dtype": "float32",
+    "min": 0.0,
+    "max": 1.734761357307434,
+    "mean": 0.021718649193644524,
+    "std": 0.0806000754237175,
+    "description": "FP32 PyTorch activation exported in model.eval() mode"
+  },
+  "pool1": {
+    "shape": [
+      128,
+      16,
+      89
+    ],
+    "dtype": "float32",
+    "min": 0.0,
+    "max": 1.734761357307434,
+    "mean": 0.02633112482726574,
+    "std": 0.09395081549882889,
+    "description": "FP32 PyTorch activation exported in model.eval() mode"
+  },
+  "drop1_eval_identity": {
+    "shape": [
+      128,
+      16,
+      89
+    ],
+    "dtype": "float32",
+    "min": 0.0,
+    "max": 1.734761357307434,
+    "mean": 0.02633112482726574,
+    "std": 0.09395081549882889,
+    "description": "FP32 PyTorch activation exported in model.eval() mode"
+  },
+  "conv3": {
+    "shape": [
+      128,
+      32,
+      87
+    ],
+    "dtype": "float32",
+    "min": -4.202387809753418,
+    "max": 1.5759780406951904,
+    "mean": -0.04057357460260391,
+    "std": 0.2212323248386383,
+    "description": "FP32 PyTorch activation exported in model.eval() mode"
+  },
+  "bn3_or_identity": {
+    "shape": [
+      128,
+      32,
+      87
+    ],
+    "dtype": "float32",
+    "min": -4.202387809753418,
+    "max": 1.5759780406951904,
+    "mean": -0.04057357460260391,
+    "std": 0.2212323248386383,
+    "description": "FP32 PyTorch activation exported in model.eval() mode"
+  },
+  "relu3": {
+    "shape": [
+      128,
+      32,
+      87
+    ],
+    "dtype": "float32",
+    "min": 0.0,
+    "max": 1.5759780406951904,
+    "mean": 0.04538378119468689,
+    "std": 0.08046907186508179,
+    "description": "FP32 PyTorch activation exported in model.eval() mode"
+  },
+  "conv4": {
+    "shape": [
+      128,
+      32,
+      85
+    ],
+    "dtype": "float32",
+    "min": -1.7611589431762695,
+    "max": 2.1906657218933105,
+    "mean": -0.14565834403038025,
+    "std": 0.2147810459136963,
+    "description": "FP32 PyTorch activation exported in model.eval() mode"
+  },
+  "bn4_or_identity": {
+    "shape": [
+      128,
+      32,
+      85
+    ],
+    "dtype": "float32",
+    "min": -1.7611589431762695,
+    "max": 2.1906657218933105,
+    "mean": -0.14565834403038025,
+    "std": 0.2147810459136963,
+    "description": "FP32 PyTorch activation exported in model.eval() mode"
+  },
+  "relu4": {
+    "shape": [
+      128,
+      32,
+      85
+    ],
+    "dtype": "float32",
+    "min": 0.0,
+    "max": 2.1906657218933105,
+    "mean": 0.03144831210374832,
+    "std": 0.10522729158401489,
+    "description": "FP32 PyTorch activation exported in model.eval() mode"
+  },
+  "pool2": {
+    "shape": [
+      128,
+      32,
+      42
+    ],
+    "dtype": "float32",
+    "min": 0.0,
+    "max": 2.1906657218933105,
+    "mean": 0.04235502704977989,
+    "std": 0.1281452178955078,
+    "description": "FP32 PyTorch activation exported in model.eval() mode"
+  },
+  "drop2_eval_identity": {
+    "shape": [
+      128,
+      32,
+      42
+    ],
+    "dtype": "float32",
+    "min": 0.0,
+    "max": 2.1906657218933105,
+    "mean": 0.04235502704977989,
+    "std": 0.1281452178955078,
+    "description": "FP32 PyTorch activation exported in model.eval() mode"
+  },
+  "conv5": {
+    "shape": [
+      128,
+      256,
+      40
+    ],
+    "dtype": "float32",
+    "min": -11.355062484741211,
+    "max": 3.1877493858337402,
+    "mean": -0.2031000554561615,
+    "std": 0.5046801567077637,
+    "description": "FP32 PyTorch activation exported in model.eval() mode"
+  },
+  "bn5_or_identity": {
+    "shape": [
+      128,
+      256,
+      40
+    ],
+    "dtype": "float32",
+    "min": -11.355062484741211,
+    "max": 3.1877493858337402,
+    "mean": -0.2031000554561615,
+    "std": 0.5046801567077637,
+    "description": "FP32 PyTorch activation exported in model.eval() mode"
+  },
+  "relu5": {
+    "shape": [
+      128,
+      256,
+      40
+    ],
+    "dtype": "float32",
+    "min": 0.0,
+    "max": 3.1877493858337402,
+    "mean": 0.05091853067278862,
+    "std": 0.12360704690217972,
+    "description": "FP32 PyTorch activation exported in model.eval() mode"
+  },
+  "conv6": {
+    "shape": [
+      128,
+      256,
+      38
+    ],
+    "dtype": "float32",
+    "min": -27.6126766204834,
+    "max": 7.216566562652588,
+    "mean": -1.6123632192611694,
+    "std": 1.528846025466919,
+    "description": "FP32 PyTorch activation exported in model.eval() mode"
+  },
+  "bn6_or_identity": {
+    "shape": [
+      128,
+      256,
+      38
+    ],
+    "dtype": "float32",
+    "min": -27.6126766204834,
+    "max": 7.216566562652588,
+    "mean": -1.6123632192611694,
+    "std": 1.528846025466919,
+    "description": "FP32 PyTorch activation exported in model.eval() mode"
+  },
+  "relu6": {
+    "shape": [
+      128,
+      256,
+      38
+    ],
+    "dtype": "float32",
+    "min": 0.0,
+    "max": 7.216566562652588,
+    "mean": 0.011426707729697227,
+    "std": 0.1319810152053833,
+    "description": "FP32 PyTorch activation exported in model.eval() mode"
+  },
+  "global_max_pool": {
+    "shape": [
+      128,
+      256,
+      1
+    ],
+    "dtype": "float32",
+    "min": 0.0,
+    "max": 7.216566562652588,
+    "mean": 0.2586941123008728,
+    "std": 0.6423388123512268,
+    "description": "FP32 PyTorch activation exported in model.eval() mode"
+  },
+  "drop3_eval_identity": {
+    "shape": [
+      128,
+      256,
+      1
+    ],
+    "dtype": "float32",
+    "min": 0.0,
+    "max": 7.216566562652588,
+    "mean": 0.2586941123008728,
+    "std": 0.6423388123512268,
+    "description": "FP32 PyTorch activation exported in model.eval() mode"
+  },
+  "flatten": {
+    "shape": [
+      128,
+      256
+    ],
+    "dtype": "float32",
+    "min": 0.0,
+    "max": 7.216566562652588,
+    "mean": 0.2586941123008728,
+    "std": 0.6423388123512268,
+    "description": "FP32 PyTorch activation exported in model.eval() mode"
+  },
+  "fc1": {
+    "shape": [
+      128,
+      64
+    ],
+    "dtype": "float32",
+    "min": -27.06447982788086,
+    "max": 14.026052474975586,
+    "mean": -1.5634914636611938,
+    "std": 3.5691542625427246,
+    "description": "FP32 PyTorch activation exported in model.eval() mode"
+  },
+  "relu7": {
+    "shape": [
+      128,
+      64
+    ],
+    "dtype": "float32",
+    "min": 0.0,
+    "max": 14.026052474975586,
+    "mean": 0.6940615773200989,
+    "std": 1.6283365488052368,
+    "description": "FP32 PyTorch activation exported in model.eval() mode"
+  },
+  "fc2": {
+    "shape": [
+      128,
+      64
+    ],
+    "dtype": "float32",
+    "min": -11.986115455627441,
+    "max": 12.878643035888672,
+    "mean": -0.6090031862258911,
+    "std": 3.199993371963501,
+    "description": "FP32 PyTorch activation exported in model.eval() mode"
+  },
+  "relu8": {
+    "shape": [
+      128,
+      64
+    ],
+    "dtype": "float32",
+    "min": 0.0,
+    "max": 12.878643035888672,
+    "mean": 0.9923064112663269,
+    "std": 1.9623457193374634,
+    "description": "FP32 PyTorch activation exported in model.eval() mode"
+  },
+  "logits": {
+    "shape": [
+      128,
+      5
+    ],
+    "dtype": "float32",
+    "min": -29.038002014160156,
+    "max": 18.008764266967773,
+    "mean": -2.851292848587036,
+    "std": 7.408395767211914
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "conv1": {
+    "min_fixed_out": -281,
+    "max_fixed_out": 284,
+    "saturation_count": 0,
+    "overflow_count": 0,
+    "underflow_count": 0,
+    "max_abs_accumulator": 4650011,
+    "required_accumulator_bits": 24,
+    "accumulator_margin_bits": 16
+  },
+  "conv2": {
+    "min_fixed_out": -480,
+    "max_fixed_out": 445,
+    "saturation_count": 0,
+    "overflow_count": 0,
+    "underflow_count": 0,
+    "max_abs_accumulator": 7870405,
+    "required_accumulator_bits": 24,
+    "accumulator_margin_bits": 16
+  },
+  "conv3": {
+    "min_fixed_out": -1076,
+    "max_fixed_out": 404,
+    "saturation_count": 0,
+    "overflow_count": 0,
+    "underflow_count": 0,
+    "max_abs_accumulator": 17630540,
+    "required_accumulator_bits": 26,
+    "accumulator_margin_bits": 14
+  },
+  "conv4": {
+    "min_fixed_out": -451,
+    "max_fixed_out": 562,
+    "saturation_count": 0,
+    "overflow_count": 0,
+    "underflow_count": 0,
+    "max_abs_accumulator": 9201920,
+    "required_accumulator_bits": 25,
+    "accumulator_margin_bits": 15
+  },
+  "conv5": {
+    "min_fixed_out": -2909,
+    "max_fixed_out": 816,
+    "saturation_count": 0,
+    "overflow_count": 0,
+    "underflow_count": 0,
+    "max_abs_accumulator": 47658143,
+    "required_accumulator_bits": 27,
+    "accumulator_margin_bits": 13
+  },
+  "conv6": {
+    "min_fixed_out": -7072,
+    "max_fixed_out": 1852,
+    "saturation_count": 0,
+    "overflow_count": 0,
+    "underflow_count": 0,
+    "max_abs_accumulator": 115868088,
+    "required_accumulator_bits": 28,
+    "accumulator_margin_bits": 12
+  },
+  "fc1": {
+    "min_fixed_out": -6911,
+    "max_fixed_out": 3595,
+    "saturation_count": 0,
+    "overflow_count": 0,
+    "underflow_count": 0,
+    "max_abs_accumulator": 113221955,
+    "required_accumulator_bits": 28,
+    "accumulator_margin_bits": 12
+  },
+  "fc2": {
+    "min_fixed_out": -3057,
+    "max_fixed_out": 3290,
+    "saturation_count": 0,
+    "overflow_count": 0,
+    "underflow_count": 0,
+    "max_abs_accumulator": 53900258,
+    "required_accumulator_bits": 27,
+    "accumulator_margin_bits": 13
+  },
+  "logits": {
+    "min_fixed_out": -7443,
+    "max_fixed_out": 4616,
+    "saturation_count": 0,
+    "overflow_count": 0,
+    "underflow_count": 0,
+    "max_abs_accumulator": 121940081,
+    "required_accumulator_bits": 28,
+    "accumulator_margin_bits": 12
+  }
+}
