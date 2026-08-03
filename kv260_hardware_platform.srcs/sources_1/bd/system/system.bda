@@ -277,7 +277,7 @@
                 "SX": "/CNN_wrapper_0",
                 "SI": "s_axi",
                 "SS": "reg0",
-                "SV": "xilinx.com:user:CNN_wrapper:1.0",
+                "SV": "xilinx.com:user:CNN_wrapper:1.6",
                 "TM": "both",
                 "TU": "register"
             },

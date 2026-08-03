@@ -6,6 +6,7 @@ kv260_hardware_platform.ip_user_files/
 kv260_hardware_platform.runs/
 kv260_hardware_platform.sim/
 .Xil/
+integration_reports/
 
 # Vivado logs and temporary files
 *.jou
@@ -31,4 +32,3 @@ kv260_hardware_platform.sim/
 Thumbs.db
 *.swp
 *.swo
-

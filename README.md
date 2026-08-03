@@ -40,7 +40,7 @@ stages used by the ECG classifier.
 | --- | --- |
 | `kv260_hardware_platform.xpr` | Vivado 2024.2 project for the KV260 SOM |
 | `kv260_hardware_platform.srcs/` | Block design and IP configuration sources |
-| `reference/` | Packaged `CNN_wrapper` IP and SystemVerilog implementation |
+| `reference/` | Legacy local CNN IP reference (not used by the current design) |
 | `assets/kv260_ecg_block_design.png` | Vivado block-design overview |
 
 Vivado-generated cache, synthesis, implementation, simulation, and output
@@ -56,15 +56,16 @@ directories are intentionally excluded from version control.
 ## Open and build
 
 1. Open `kv260_hardware_platform.xpr` in Vivado.
-2. Confirm that the project IP repository includes `reference/`.
+2. Confirm that the project IP repository includes
+   `D:/FPGA_cc/ip_repo/CNN_wrapper_v1_6`.
 3. Open the `system` block design and run **Validate Design**.
 4. Generate output products, then run synthesis and implementation.
 5. Generate the bitstream and export the hardware platform as required by the
    software application.
 
-The project is configured to use `reference/` as its local custom-IP
-repository, so it can be opened after cloning without relying on the original
-Windows folder layout.
+The project is configured to use the versioned `CNN_wrapper` v1.6 package in
+`D:/FPGA_cc/ip_repo`. Its synthesis pre-hook stages the required CNN model
+files before each build.
 
 ## CNN control registers
 

@@ -8,7 +8,8 @@
       "pfm_name": "vendor:lib:system:1.0",
       "rev_ctrl_bd_flag": "RevCtrlBdOff",
       "synth_flow_mode": "None",
-      "tool_version": "2024.2"
+      "tool_version": "2024.2",
+      "validated": "true"
     },
     "design_tree": {
       "zynq_ultra_ps_e_0": "",
@@ -1277,13 +1278,13 @@
         "inst_hier_path": "clk_wiz_0",
         "parameters": {
           "CLKOUT2_JITTER": {
-            "value": "102.087"
+            "value": "115.833"
           },
           "CLKOUT2_PHASE_ERROR": {
             "value": "87.181"
           },
           "CLKOUT2_REQUESTED_OUT_FREQ": {
-            "value": "200.000"
+            "value": "100.000"
           },
           "CLKOUT2_USED": {
             "value": "true"
@@ -1301,7 +1302,7 @@
             "value": "true"
           },
           "MMCM_CLKOUT1_DIVIDE": {
-            "value": "6"
+            "value": "12"
           },
           "MMCM_CLKOUT2_DIVIDE": {
             "value": "3"
@@ -1391,6 +1392,9 @@
             "vlnv_bus_definition": "xilinx.com:interface:aximm:1.0",
             "vlnv": "xilinx.com:interface:aximm_rtl:1.0",
             "parameters": {
+              "MAX_BURST_LENGTH": {
+                "value": "1"
+              },
               "NUM_READ_OUTSTANDING": {
                 "value": "8"
               },
@@ -1404,6 +1408,9 @@
                 "value": "1"
               },
               "RUSER_BITS_PER_BYTE": {
+                "value": "0"
+              },
+              "SUPPORTS_NARROW_BURST": {
                 "value": "0"
               },
               "WUSER_BITS_PER_BYTE": {
@@ -1416,6 +1423,9 @@
             "vlnv_bus_definition": "xilinx.com:interface:aximm:1.0",
             "vlnv": "xilinx.com:interface:aximm_rtl:1.0",
             "parameters": {
+              "MAX_BURST_LENGTH": {
+                "value": "1"
+              },
               "NUM_READ_OUTSTANDING": {
                 "value": "8"
               },
@@ -1429,6 +1439,9 @@
                 "value": "1"
               },
               "RUSER_BITS_PER_BYTE": {
+                "value": "0"
+              },
+              "SUPPORTS_NARROW_BURST": {
                 "value": "0"
               },
               "WUSER_BITS_PER_BYTE": {
@@ -1441,6 +1454,9 @@
             "vlnv_bus_definition": "xilinx.com:interface:aximm:1.0",
             "vlnv": "xilinx.com:interface:aximm_rtl:1.0",
             "parameters": {
+              "MAX_BURST_LENGTH": {
+                "value": "1"
+              },
               "NUM_READ_OUTSTANDING": {
                 "value": "8"
               },
@@ -1454,6 +1470,9 @@
                 "value": "1"
               },
               "RUSER_BITS_PER_BYTE": {
+                "value": "0"
+              },
+              "SUPPORTS_NARROW_BURST": {
                 "value": "0"
               },
               "WUSER_BITS_PER_BYTE": {
@@ -1525,11 +1544,16 @@
         }
       },
       "CNN_wrapper_0": {
-        "vlnv": "xilinx.com:user:CNN_wrapper:1.0",
-        "ip_revision": "2",
+        "vlnv": "xilinx.com:user:CNN_wrapper:1.6",
+        "ip_revision": "1",
         "xci_name": "system_CNN_wrapper_0_0",
         "xci_path": "ip\\system_CNN_wrapper_0_0\\system_CNN_wrapper_0_0.xci",
         "inst_hier_path": "CNN_wrapper_0",
+        "parameters": {
+          "REGISTERED_MATH": {
+            "value": "1"
+          }
+        },
         "interface_ports": {
           "s_axi": {
             "vlnv": "xilinx.com:interface:aximm_rtl:1.0",
@@ -1546,7 +1570,7 @@
         "inst_hier_path": "axis_subset_converter_0",
         "parameters": {
           "M_HAS_TKEEP": {
-            "value": "1"
+            "value": "0"
           },
           "M_HAS_TLAST": {
             "value": "1"
@@ -1558,7 +1582,7 @@
             "value": "0"
           },
           "M_TDATA_NUM_BYTES": {
-            "value": "4"
+            "value": "2"
           },
           "M_TDEST_WIDTH": {
             "value": "0"
@@ -1592,6 +1616,12 @@
           },
           "S_TUSER_WIDTH": {
             "value": "0"
+          },
+          "TDATA_REMAP": {
+            "value": "tdata[15:0]"
+          },
+          "TKEEP_REMAP": {
+            "value": "1'b0"
           }
         },
         "interface_ports": {
@@ -1913,9 +1943,11 @@
           "axis_subset_converter_0/aclk",
           "axis_data_fifo_1/s_axis_aclk",
           "axis_subset_converter_1/aclk",
-          "CNN_wrapper_0/s_axi_aclk",
           "axi_dma_0/m_axi_s2mm_aclk",
-          "axi_smc_1/aclk1"
+          "axi_smc_1/aclk1",
+          "CNN_wrapper_0/s_axi_aclk",
+          "axi_dma_0/m_axi_mm2s_aclk",
+          "zynq_ultra_ps_e_0/saxihpc0_fpd_aclk"
         ]
       },
       "clk_wiz_0_clk_out3": {
@@ -1961,9 +1993,7 @@
         "ports": [
           "zynq_ultra_ps_e_0/pl_clk0",
           "clk_wiz_0/clk_in1",
-          "axi_dma_0/m_axi_mm2s_aclk",
           "axi_smc_1/aclk",
-          "zynq_ultra_ps_e_0/saxihpc0_fpd_aclk",
           "rst_ps8_0_99M/slowest_sync_clk"
         ]
       },
