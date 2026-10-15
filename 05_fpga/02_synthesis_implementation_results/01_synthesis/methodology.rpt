@@ -1,0 +1,52 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Sat Sep 26 03:07:13 2026
+| Host         : laptoptt running 64-bit major release  (build 9200)
+| Command      : report_methodology -file D:/FPGA_cc/kv260_hardware_platform/build_reports/synth/methodology.rpt
+| Design       : system_wrapper
+| Device       : xck26-sfvc784-2LV-c
+| Speed File   : -2LV
+| Design State : Synthesized
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: synth_1
+      Design limits: <entire design considered>
+             Max checks: <unlimited>
+             Checks found: 3
++---------+----------+--------------------------------------------+--------+
+| Rule    | Severity | Description                                | Checks |
++---------+----------+--------------------------------------------+--------+
+| CLKC-5  | Advisory | BUFGCE with constant CE has BUFG driver    | 1      |
+| CLKC-40 | Advisory | Substitute PLLE4 for MMCME4 check          | 1      |
+| CLKC-56 | Advisory | MMCME4 with global clock driver has no LOC | 1      |
++---------+----------+--------------------------------------------+--------+
+
+2. REPORT DETAILS
+-----------------
+CLKC-5#1 Advisory
+BUFGCE with constant CE has BUFG driver  
+The BUFGCE cell system_i/clk_wiz_0/inst/clkin1_bufg system_i/clk_wiz_0/inst/clkin1_bufg/I pin (and CE pin not ACTIVE) is driven by BUFG_PS clock buffer system_i/zynq_ultra_ps_e_0/inst/buffer_pl_clk_0.PL_CLK_0_BUFG. This may be an unnecessary use of multiple clocking resources and should be reviewed. Cascaded buffers introduce skew that can lead to difficult or impossible timing closure.
+Related violations: <none>
+
+CLKC-40#1 Advisory
+Substitute PLLE4 for MMCME4 check  
+The MMCME4 cell system_i/clk_wiz_0/inst/mmcme4_adv_inst has a single input clock whose source driver, UNKNOWN, is not optimally located and the MMCM has a configuration which could be accommodated by a PLL.  Consider changing the MMCM to a PLL which could align better with the input clock driver.
+Related violations: <none>
+
+CLKC-56#1 Advisory
+MMCME4 with global clock driver has no LOC  
+The MMCME4_ADV cell system_i/clk_wiz_0/inst/mmcme4_adv_inst CLKIN1 or CLKIN2 pin is driven by global Clock buffer(s) system_i/clk_wiz_0/inst/clkin1_bufg and does not have a LOC constraint. It is recommended to LOC the MMCM and use the CLOCK_DEDICATED_ROUTE constraint on the net(s) driven by the global Clock buffer(s).
+Related violations: <none>
+
+

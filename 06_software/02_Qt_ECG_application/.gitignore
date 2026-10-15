@@ -1,0 +1,6 @@
+build-x86_64/
+build-aarch64-kv260/
+CMakeUserPresets.json
+*.user
+*.csv
+!data/*.txt

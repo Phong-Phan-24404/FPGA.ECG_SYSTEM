@@ -1,0 +1,20 @@
+{
+  "name": "baseline_cnn_mitbih",
+  "source_dataset": "MIT-BIH heartbeat dataset used during model development",
+  "vitis_ai_xmodel": "models/ecg_1dcnn_2d_dpu.xmodel",
+  "input_shape": [1, 187, 1],
+  "model_input_contract": "exact normalized 187-point dataset heartbeat; no runtime resampling",
+  "demo_playback_sample_rate_hz": 125,
+  "display_pipeline": "fixed display morphology -> RR scheduler -> optional noise/baseline wander -> display-only 0.05-40 Hz Butterworth",
+  "classes": [
+    {"index": 0, "short": "N", "name": "Normal / non-ectopic"},
+    {"index": 1, "short": "S", "name": "Supraventricular ectopic"},
+    {"index": 2, "short": "V", "name": "Ventricular ectopic"},
+    {"index": 3, "short": "F", "name": "Fusion"},
+    {"index": 4, "short": "Q", "name": "Unknown / unclassifiable"}
+  ],
+  "runtime_modes": {
+    "x86_64_wsl": "Qt realtime emulator and visualization; no fake AI prediction",
+    "aarch64_kv260": "Qt realtime emulator plus Vitis AI Runtime / DPU xmodel inference"
+  }
+}

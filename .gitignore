@@ -1,0 +1,12 @@
+# Transient regression/synthesis outputs
+.regression_work/
+__pycache__/
+*.pyc
+*.jou
+*.str
+.Xil/
+xsim.dir/
+*.wdb
+*.vcd
+Thumbs.db
+.DS_Store
