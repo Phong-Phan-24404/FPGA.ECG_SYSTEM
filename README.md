@@ -28,7 +28,7 @@ A custom streaming **1D-CNN accelerator** built in RTL, closed at 100 MHz on the
 
 ## RTL Design Engineering
 
-Explore [streaming CNN datapaths and fixed-point RTL](03_rtl/01_CNN_accelerator_IP/src/).
+Explore [streaming CNN datapaths and fixed-point RTL](03_rtl/01_CNN_accelerator_IP/).
 
 
 ### CNN control registers
